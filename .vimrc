@@ -166,7 +166,8 @@ let g:miniBufExplMapWindowNavArrows = 1
  "--------------------------------------------------------------------------------
 nnoremap <silent> <F12> :A<CR>
 
-
+color snazzy
+let g:SnazzyTransparent = 1
 
 noremap j h
 noremap i k
