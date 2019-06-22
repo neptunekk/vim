@@ -67,6 +67,8 @@ noremap <C-j> 0
 " I key: go to the end of the line
 noremap <C-l> $
 
+inoremap <C-c> <Esc>
+nnoremap <C-c> <Esc>
 
 
 map s <nop>
@@ -75,15 +77,15 @@ map Q :q<CR>
 map R :source $MYVIMRC<CR>
 map ; :
 
-map si :set splitright<CR>:vsplit<CR>
-map sn :set nosplitright<CR>:vsplit<CR>
-map su :set nosplitbelow<CR>:split<CR>
-map se :set splitbelow<CR>:split<CR>
+map sl :set splitright<CR>:vsplit<CR>
+map sj :set nosplitright<CR>:vsplit<CR>
+map sk :set nosplitbelow<CR>:split<CR>
+map si :set splitbelow<CR>:split<CR>
 
-map <LEADER>i <C-w>l
-map <LEADER>u <C-w>k
-map <LEADER>n <C-w>h
-map <LEADER>e <C-w>j
+map <LEADER>l <C-w>l
+map <LEADER>i <C-w>k
+map <LEADER>j <C-w>h
+map <LEADER>k <C-w>j
 
 map <up> :res +5<CR>
 map <down> :res -5<CR>
@@ -91,11 +93,11 @@ map <left> :vertical resize-5<CR>
 map <right> :vertical resize+5<CR>
 
 map tu :tabe<CR>
-map tn :-tabnext<CR>
+map tk :-tabnext<CR>
 map ti :+tabnext<CR>
 
-map sv <C-w>t<C-w>H
-map sh <C-w>t<C-w>K
+map sw <C-w>t<C-w>H
+map sd <C-w>t<C-w>K
 
 
 
